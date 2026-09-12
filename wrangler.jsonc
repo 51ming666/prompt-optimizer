@@ -1,6 +1,9 @@
 {
   "name": "prompt-optimizer",
   "compatibility_date": "2026-05-27",
+  "routes": [
+    { "pattern": "prompt.51ming.bond", "custom_domain": true }
+  ],
   "build": {
     "command": "pnpm -F @prompt-optimizer/core build && pnpm -F @prompt-optimizer/ui build && pnpm -F @prompt-optimizer/web build"
   },
